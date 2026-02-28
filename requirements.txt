@@ -1,6 +1,5 @@
+pyrogram
+tgcrypto
+faster-whisper
 
-yt-dlp
-flask
-requests
-telethon
 
