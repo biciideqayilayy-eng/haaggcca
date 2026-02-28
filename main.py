@@ -29,11 +29,14 @@ def get_user_mode(uid):
 @app.on_message(filters.command(['start', 'help']))
 async def send_welcome(client, message):
     welcome_text = (
-        "👋 Salaam!\n"
-        "• Send me any audio or video file\n"
-        "• voice message\n"
-        "• document\n\n"
-        "I'll transcribe the audio and return the text."
+        """👋 Salaam!
+• Send me
+• voice message
+• audio file
+• video
+• Get Text for free
+
+ 💎 devloper by @laki3012"""
     )
     await message.reply_text(welcome_text, quote=True)
 
