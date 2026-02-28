@@ -8,7 +8,7 @@ from faster_whisper import WhisperModel
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8329708640:AAG1vUcykAZHM503GPtiiLqMXTv9U8UaZvs")
 API_ID = int(os.environ.get("API_ID", "1234567"))
 API_HASH = os.environ.get("API_HASH", "your_api_hash_here")
-MAX_UPLOAD_MB = int(os.environ.get("MAX_UPLOAD_MB", "20"))
+MAX_UPLOAD_MB = int(os.environ.get("MAX_UPLOAD_MB", "500"))
 MAX_UPLOAD_SIZE = MAX_UPLOAD_MB * 1024 * 1024
 MAX_MESSAGE_CHUNK = 4095
 DOWNLOADS_DIR = os.environ.get("DOWNLOADS_DIR", "./downloads")
